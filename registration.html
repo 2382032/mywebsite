@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="backgroundtext">
+        <ul class="posisitext">
+            <li class="atributtext"><a href="index.html" class="desaintext">HOMEPAGE</a></li>
+            <li class="atributtext"><a href="about.html" class="desaintext">ABOUT PAGE</a></li>
+            <li class="atributtext"><a href="myHoliday.html" class="desaintext">MY HOLIDAY</a></li>
+            <li class="atributtext"><a href="registration.html" class="desaintext">REGISTRATION FORM</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="process.php" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="town">Town:</label>
+            <input type="text" id="town" name="town" required>
+
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" name="zipcode" required>
+
+            <input type="submit" value="Register">
+        </form>
+
+    </body>
+    </html>

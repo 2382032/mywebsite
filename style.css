@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.backgroundtext {
+    background-color: #1F2833;
+    padding: 10px;
+    border: 2px solid #66FCF1;
+}
+
+.posisitext {
+    display: flex;
+    justify-content: center;
+}
+
+.atributtext {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.desaintext {
+    color: #66FCF1;
+    text-decoration: none;
+}
+
+.atributtext:hover {
+    background-color: rgb(25, 24, 24);
+    border-radius: 7px;
+    transition: .4s ease-in-out;
+}
+
+.styleimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.imghendrik {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px solid grey;
+}
+
+.opening{
+    color: #66FCF1;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 100px;
+
+}
+
+.justsay {
+    background-color: #1F2833;
+    margin: 30px;
+    padding: 7px;
+    color: #66FCF1;
+    border: 2px solid #66FCF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1F2833;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 200px;
+    height: 267px;
+    border-radius: 10px;
+    border: 7px solid #66FCF1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #66FCF1;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 18px;
+    color: white;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li, ol li {
+    color: white;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.gallery {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery1 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery2 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery3 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery4 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery5 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery6 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery7 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="date"], 
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a {
+    margin: 0 5px;
+}
